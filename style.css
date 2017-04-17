@@ -3,7 +3,7 @@ body {
   line-height: 24px;
   color: #fff;
   font-family: Roboto, Arial, sans-serif;
-  
+
   width: 1200px;
   margin: 0;      /*?*/
   background-color: #849d8f;
@@ -39,7 +39,7 @@ body > input[type="radio"] {
   background-repeat: no-repeat;
   background-position: top center;
 
-  transition: background-image 0.5s ease, 
+  transition: background-image 0.5s ease,
   background-color 0.5s ease;
 }
 
@@ -74,7 +74,7 @@ body > input[type="radio"] {
 .logo {
   margin-top: 12px;
   float: left;
-    /*margin-left: -89px;*/    /*почему-то вызывается content-wrapper: margin 0 auto;*/
+  /*margin-left: -89px;*/    /*почему-то вызывается content-wrapper: margin 0 auto;*/
 }
 
 .left-menu {
@@ -153,7 +153,7 @@ body > input[type="radio"] {
 .right-menu .login,
 .right-menu .cart {
   position: relative;
-} 
+}
 
 .right-menu .search {
   padding-right: 71px;
@@ -252,7 +252,7 @@ body > input[type="radio"] {
 
 .right-menu .login:hover:before {
   background: url("img/enter-black.png") center no-repeat;
-} 
+}
 
 
 .right-menu .login:after {
@@ -336,15 +336,15 @@ body > input[type="radio"] {
   margin-bottom: 27px;
 
   font-weight: 700;    /*в демо версии: 800 - надо скачать этот размер*/
-  font-size: 60px; 
+  font-size: 60px;
   line-height: 61px;
 }
 
 .slide-btn {
   display: inline-block;
   padding: 12px 41px;
-    font-weight: 500;
-    font-size: 32px;
+  font-weight: 500;
+  font-size: 32px;
   line-height: 41px;
   vertical-align: top;
   color: #ffffff;
@@ -392,7 +392,7 @@ body > input[type="radio"] {
 .slider-controls {
   position: absolute;
   bottom: 19px;
-    left: 27px;
+  left: 27px;
   z-index: 20;
 
   font-size: 0;
@@ -437,7 +437,7 @@ body > input[type="radio"] {
 
 .breadcrumbs {
   padding-left: 5px;
-  
+
 }
 
 .breadcrumbs ul {
@@ -517,7 +517,7 @@ body > input[type="radio"] {
   left: -15px;
   width: 218px;
 }
-    
+
 .sorting-fats:after {
   width: 415px;
   left: -2px;
@@ -528,17 +528,17 @@ body > input[type="radio"] {
 }
 
 .sorting p,
-.sorting-price p, 
+.sorting-price p,
 .sorting-fats p,
 .sorting-toppings p {
   font-size: 14px;
   line-height: 16px;
   color: #fff;
   font-weight: 400;
-} 
+}
 
-.sorting {  
-    margin-left: 23px;
+.sorting {
+  margin-left: 23px;
 }
 
 .sorting-menu p {
@@ -563,8 +563,8 @@ body > input[type="radio"] {
 }
 
 .sorting-menu p:hover {
-    color: #000;
-} 
+  color: #000;
+}
 
 .sorting-menu p:hover:after {
   border-top: 6px solid #000;
@@ -583,7 +583,7 @@ body > input[type="radio"] {
   width: 188px;
   height: 4px;
   background-color: #d0d9d2;
-margin-top: 21px;
+  margin-top: 21px;
 }
 
 .bar {
@@ -604,12 +604,12 @@ margin-top: 21px;
 
 .toggle-min {
   top: -8px;
-    left: 20px;
+  left: 20px;
 }
 
 .toggle-max {
- top: -8px;
-    left: 118px;
+  top: -8px;
+  left: 118px;
 }
 
 
@@ -633,8 +633,8 @@ margin-top: 21px;
 
 ul.fats {
   margin: 0;
-    font-size: 16px;
-    padding-left: 0px;
+  font-size: 16px;
+  padding-left: 0px;
 }
 
 .sorting-fats input[type=radio] {
@@ -679,7 +679,7 @@ ul.fats {
 }
 
 .sorting-toppings:after {
- left: 6px;
+  left: 6px;
 }
 
 .toppings {
@@ -712,10 +712,10 @@ ul.fats {
   position: absolute;
   content: "";
   background-image: url("img/check-off.png");
-      top: 0px;
-    left: -32px;
-    width: 20px;
-    height: 20px;
+  top: 0px;
+  left: -32px;
+  width: 20px;
+  height: 20px;
 
 }
 
@@ -751,7 +751,7 @@ ul.fats {
   color: #000;
   padding: 10px 28px;
   border: none;
-  
+
   /*border-radius: 20px;*/
 }
 
@@ -779,22 +779,23 @@ ul.fats {
   grid-template-columns: 237px 237px 237px 237px;
   grid-template-rows: 350px 350px 350px;*/
 }
-    
+
 .product-card {
   display: inline-block;
   width: 270px;
-  height: 338px;
+  height: 363px;
   font-size: 16px;
   color: #ffffff;
-
+  background-position: center 20px;
+  background-repeat: no-repeat;
 }
 
 .product-card p.price {
   padding-top: 196px;
-    text-shadow: 0 2px 5px grey;
-    font-size: 45px;
-    margin-bottom: 34px;
-    
+  text-shadow: 0 2px 5px grey;
+  font-size: 45px;
+  margin-bottom: 34px;
+
 }
 
 .product-card p.card-description {
@@ -805,60 +806,60 @@ ul.fats {
 
 
 .product-card.orange {
-  background: url("img/orange.png") center no-repeat;
+  background-image: url("img/orange.png");
   /*grid-column: 1/2;
   grid-row: 1/2;*/
 }
 
 .product-card.choco-coffee {
-  background: url("img/choco-coffee.png") center no-repeat;
+  background-image: url("img/choco-coffee.png");
 }
 
 .product-card.strawberry {
-  background: url("img/strawberry.png") center no-repeat;
-} 
+  background-image: url("img/strawberry.png");
+}
 
 .product-card.creme {
-  background: url("img/creme.png") center no-repeat;
+  background-image: url("img/creme.png");
 }
 
 .product-card.brusnika {
-  background: url("img/brusnika.png") center no-repeat;
+  background-image: url("img/brusnika.png");
 }
 
 .product-card.blueberry {
-  background: url("img/blueberry.png") center no-repeat;
+  background-image: url("img/blueberry.png");
 }
 
 .product-card.lemon {
-  background: url("img/lemon.png") center no-repeat;
+  background-image: url("img/lemon.png");
 }
 
 .product-card.cream-chocolate {
-  background: url("img/cream-chocolate.png") center no-repeat;
+  background-image: url("img/cream-chocolate.png");
 }
 
 .product-card.vanilla {
-  background: url("img/vanilla.png") center no-repeat;
+  background-image: url("img/vanilla.png");
 }
 
 .product-card.mentol {
-  background: url("img/mentol.png") center no-repeat;
+  background-image: url("img/mentol.png");
 }
 
 .product-card.black-chocolate {
-  background: url("img/black-chocolate.png") center no-repeat;
+  background-image: url("img/black-chocolate.png");
 }
 
 .product-card.mint {
-  background: url("img/mint.png") center no-repeat;
+  background-image: url("img/mint.png");
 }
 
 .paginator {
   width: 1146px;
   border-bottom: 1px solid #9cb0a5;
   margin-left: 26px;
-  padding-bottom: 13px;  
+  padding-bottom: 13px;
 }
 
 
