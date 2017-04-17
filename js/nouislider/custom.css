@@ -1,0 +1,24 @@
+.noUi-horizontal {
+	height: 4px;
+    background-color: #d0d9d2;
+    top: 9px;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f8f7f4;
+    position: absolute;
+    cursor: pointer;
+    top: -8px;	
+}
+
+.noUi-horizontal .noUi-handle:before, .noUi-horizontal .noUi-handle:after {
+	display: none;
+} 
+
+.noUi-connect {
+	background: white;
+	box-shadow: none;
+}

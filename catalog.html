@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+</html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic">
+    <!-- <link href="css/normalize.css" rel="stylesheet"> -->
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/nouislider/nouislider.css">
+		<link rel="stylesheet" type="text/css" href="js/nouislider/custom.css">
+    <title>Gllacy</title>
+  </head>
+
+  <body> 
+
+
+  	<div class="site-wrapper">
+  		<div class="content-wrapper">
+			<header class="main-navigation clearfix">
+			  <div class="logo">
+			  	<img src="img/logo.png" width="153px" height="63px">
+			  </div>
+
+			  <ul class="left-menu">
+			  	<li ><a class="current" href="#">Каталог</a></li>
+			  	<li><a href="#">Доставка и оплата</a></li>
+			  	<li><a href="#">О Компании</a></li>
+			  </ul>
+
+			  <ul class="right-menu">
+			  	<li><a href="#" class="search">
+			  		<div class="search-details">
+			  			<form action="https://echo.htmlacademy.ru" method="get">
+  							<label><input type="text" name="search" placeholder="Что ищем?" autofocus></label>
+							</form>
+			  		</div>
+			  	</a></li>
+		      <li><a href="#" class="login">Вход
+		      	<div class="search-details">
+			      	<form action="https://echo.htmlacademy.ru" method="post">
+	  							<label><input type="text" name="search" placeholder="Что ищем?" autofocus></label>
+								</form>
+						</div>
+		      </a></li>
+		      <li><a href="#" class="cart items-chosen">2 товара</a></li> 
+			  </ul>
+
+			</header>
+
+			<div class="main-sorting">
+				<ul class="breadcrumbs">
+					<li><a href="index.html">Главная
+
+					</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a href="#">Сливочное</a></li>
+				</div>
+
+				<h2 class="title-sorting">Сливочное мороженое</h2>
+				<!-- <div class="upper-row"> -->
+					<div class="sorting">
+						<p>Сортировка</p>
+						<div class="sorting-menu">
+							<p>по популярности</p>
+						</div>
+					</div>
+					
+					<div class="sorting-price">
+						<p id='price-label'>Цена: 20 руб. – 80 руб.</p>
+						<div id="slider" ></div>
+
+<!-- 						<div class="pricing-scale">
+							<div class="scale">
+								<div class="bar"></div>
+							</div>
+							<div class="range-toggle toggle-min"></div>
+							<div class="range-toggle toggle-max"></div>	
+						</div> -->
+
+					</div>
+
+					<div class="sorting-fats">
+						<p>Жирность</p>
+						<ul class="fats">
+							<li>
+								<input type="radio" name="net" id="ten" value="ten">
+		              <label for="ten">0%</label>
+							</li>
+							<li>
+								<input type="radio" name="net" id="0" value="10" checked>
+	              <label for="10">до 10%</label>
+	            </li>
+							<li>
+								<input type="radio" name="net" id="30" value="30">
+	              <label for="30">до 30%</label>
+							</li>
+							<li>
+								<input type="radio" name="net" id="30plus" value="30plus">
+	              <label for="30plus">выше 30%</label>
+							</li>
+						</ul>
+					</div>
+				<!-- </div> -->
+				<div class="sorting-toppings">
+				<p>Наполнители</p>
+					<ul class="toppings">
+						<li>
+							<input type="checkbox" name="top" id="choco-top" value="choco-top" checked>
+	              <label for="choco-top">шоколадные</label>
+						</li>
+						<li>
+							<input type="checkbox" name="top" id="sugar-top" value="sugar-top" checked>
+              <label for="sugar-top">сахарные присыпки</label>
+            </li>
+						<li>
+							<input type="checkbox" name="top" id="fruit-top" value="fruit-top">
+              <label for="fruit-top">фрукты</label>
+						</li>
+						<li>
+							<input type="checkbox" name="top" id="syrops-top" value="syrops-top">
+              <label for="syrops-top">сиропы</label>
+						</li>
+						<li>
+							<input type="checkbox" name="top" id="jams-top" value="jams-top">
+              <label for="jams-top">джемы</label>
+						</li>
+					
+						<li><button class="sort-top"><a href="#">Применить</a></button></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="product-cards">
+				<div class="product-card orange">
+					<p class="price">310    /кг</p>
+					<p class="card-description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+				</div>
+				<div class="product-card choco-coffee">
+					<p class="price">380    /кг</p>
+					<p class="card-description">Сливочно-кофейное с кусочками шоколада</p>
+				</div>
+				<div class="product-card strawberry">
+					<p class="price">355    /кг</p>
+					<p class="card-description">Сливочно-клубничное с присыпкой из белого шоколада</p>
+				</div>
+				<div class="product-card creme">
+					<p class="price">415    /кг</p>
+					<p class="card-description">Сливочное крем-брюле с карамельной подливкой</p>
+				</div>
+				<div class="product-card brusnika">
+					<p class="price">325    /кг</p>
+					<p class="card-description">Сливочное с брусничным джемом
+</p>
+				</div>
+
+				<div class="product-card blueberry">
+					<p class="price">410    /кг</p>
+					<p class="card-description">Сливочно-черничное с цельными ягодами черники </p>
+				</div>
+
+				
+				<div class="product-card lemon">
+					<p class="price">375    /кг</p>
+					<p class="card-description">Сливочно-лимонное с карамельной присыпкой</p>
+				</div>
+
+				<div class="product-card cream-chocolate">
+					<p class="price">320    /кг</p>
+					<p class="card-description">Сливочное с шоколадной стружкой</p>
+				</div>
+
+				<div class="product-card vanilla">
+					<p class="price">440    /кг</p>
+					<p class="card-description">Сливочно-ванильное с кусочками шоколада</p>
+				</div>
+
+				<div class="product-card mentol">
+					<p class="price">435    /кг</p>
+					<p class="card-description">Сливочноe с ментоловым сиропом</p>
+				</div>
+				<div class="product-card black-chocolate">
+					<p class="price">355    /кг</p>
+					<p class="card-description">Сливочное с кусочками черного шоколада</p>
+				</div>
+
+				<div class="product-card mint">
+					<p class="price">420    /кг</p>
+					<p class="card-description">Сливочное с мятным сиропом</p>
+				</div>
+			</div>
+
+			<div class="paginator">
+				<ul class="pages">
+					<li class="current-page"><a href="#1">1</a></li>
+					<li><a href="#2">2</a></li>
+					<li><a href="#3">3</a></li>
+					<li><a href="#3">4</a></li>
+					<li><a href="#3">5</a></li>
+				</ul>
+			</div>
+
+
+			<footer>
+				<div class="footer-contacts">
+			  		<div class="social-buttons">
+			  			
+			  		</div>
+			  		<div class="general-info">
+			  			<ul class="left-list">
+			  				<li><a href="#">Для поставщиков</a></li>
+			  				<li><a href="#">О производстве</a></li>
+			  			</ul>
+			  			<ul class="right-info">
+			  				<li><a href="#">Наши документы</a></li>
+			  				<li><a href="#">Экологические стандарты</a></li>
+			  			</ul>
+			  		</div>
+			  		<div class="copyright">
+			  			<p>Сделано в HTML Academy © 2017</p>
+			  		</div>
+			  	</div>
+			</footer>
+
+		</div>
+	</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src='js/nouislider/nouislider.js'></script>
+  <script type="text/javascript">
+  	var sliderDiv = document.getElementById('slider');
+  	
+		var slider = noUiSlider.create(sliderDiv, {
+			start: [20, 80],
+			connect: true,
+			step: 1,
+			range: {
+				'min': 0,
+				'max': 100
+			}
+		});
+
+		var priceLabel = document.getElementById('price-label');
+
+		slider.on('update', function( values, handle ) {
+			priceLabel.innerHTML = 'Цена: ' + values[0] + ' руб. - ' + values[1] + ' руб.'
+		});
+  </script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
