@@ -1674,7 +1674,7 @@ li.current-page,
   width: 520px;
   padding-top: 12px;
   margin-left: 13px;
-  border: 0px solid transparent;
+  border: 1px solid transparent;
 }
 
 table th {
